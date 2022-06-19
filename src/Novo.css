@@ -3,21 +3,22 @@
 }
 
 .centro{
-    width: 400px;
+    width: 300px;
+    padding-top: 10px;
     background: #E6E6FA;
     display: flex;
+    align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
 }
 .outro{
-    width: 300px;
+    width: 250px;
     background:	#B0C4DE;
     margin-top: 5px;
     margin-left: 20px;
     border-left-color:#1E90FF;
     border-left-style: solid;
-    border-left-width: 3px;
-
+    border-left-width: 5px;
 }
 
 .title,.subtitle{
@@ -27,10 +28,12 @@
 
 .subtitle{
     color: #808080;
+    margin-bottom: 10px;
 }
 
 p{
     padding-left: 15px;
+    margin: 5px;
 }
 
 .button{
@@ -40,7 +43,7 @@ p{
     padding: 4px 8px;
     transition: all 0.8s;
     align-self: flex-end;
-    margin-right: 75px;
+    margin-right: 25px;
     margin-top: 20px;
     color: #808080;
 }
