@@ -31,6 +31,20 @@
 
 p{
     padding-left: 15px;
-    
 }
 
+.button{
+    background-color: #dadada;
+    border-radius: 20px;
+    border-style: none;
+    padding: 4px 8px;
+    transition: all 0.8s;
+    align-self: flex-end;
+    margin-right: 75px;
+    margin-top: 20px;
+    color: #808080;
+}
+
+.button:hover{
+    background-color: darkgray;
+}

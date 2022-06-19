@@ -1,5 +1,6 @@
 import Title from "./title" 
 
+
 function Novo(){
     return(
         <div className = "centro">
@@ -39,10 +40,13 @@ function Novo(){
 
              <div className="outro">
              <p className="texto"> 25/05/2022 07:44 </p>
-                  <p>Pais e responsáveis por alunos podem ter acesso a informações estudantis pelo App IFRO Mobile 
+                  <p>Pais e responsáveis por alunos podem ter acesso a informações estudantis pelo App IFRO Mobile
                   </p>
                 
              </div>
+
+             <button className="button"> 🔍 Mais Notícias</button>
+
         </div>
     )
 }
